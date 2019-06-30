@@ -1,6 +1,10 @@
-\documentclass{article}
+\documentclass{memoir}
 \begin{document}
-Resume goes here
-\newline
-Powered by \LaTeX{} 
+\def\jobtitle{Software Engineer}
+\title{\jobtitle}
+\author{Wesley Chalmers}
+\maketitle
+\def\numyearsworking{\number\numexpr \the\year - 2012\relax}
+\paragraph{Talented \jobtitle\space with \numyearsworking \space years of professional experience and 6 years of education.}
+\paragraph{Powered by \LaTeX{}}
 \end{document}
