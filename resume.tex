@@ -1,10 +1,57 @@
-\documentclass{memoir}
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage{blindtext}
+\usepackage{setspace}
+\onehalfspacing
 \begin{document}
 \def\jobtitle{Software Engineer}
-\title{\jobtitle}
-\author{Wesley Chalmers}
-\maketitle
 \def\numyearsworking{\number\numexpr \the\year - 2012\relax}
-\paragraph{Talented \jobtitle\space with \numyearsworking \space years of professional experience and 6 years of education.}
-\paragraph{Powered by \LaTeX{}}
+\title{\jobtitle}
+\author{Wesley Chalmers \\ Email: \url{wwchalme@uwaterloo.ca} \\ Phone: 613-xxx-xxxx}
+\maketitle
+\noindent Talented \jobtitle\space with \numyearsworking~years of professional experience and education.
+\begin{itemize}
+	\item Focus on low-level systems programming
+	\item Expertise in C/C++
+	\item Experience in Python, Java, and C\#
+	\item Familiarity with Windows and Linux environments
+	\item Windows Driver Development experience
+	\item SQL, \LaTeX\, and shell scripting experience
+\end{itemize}
+\paragraph{Work Experience}
+\noindent
+\begin{description}
+	\item September 2016 - Present: Software Engineer at AMD
+	\begin{itemize}
+		\item Graphics Driver developer in Markham
+		\item Oversaw bring-up on new products
+		\item Deep technical knowledge of AMD's graphics hardware as they relate to display technologies
+	\end{itemize}
+	\item September 2015 - December 2015: Software Developer at BlackBerry
+	\begin{itemize}
+		\item 4-month internship
+		\item Member of the Devices team
+		\item Developed and improved device test database and interface
+		\item Worked on Java/SQL backend and Web frontend
+		\item Improved the system's effectiveness by migrating data operations into SQL
+	\end{itemize}
+	\item September 2014 - April 2015: Software Developer at GE Hitachi Nuclear Energy~\\
+	8-month internship
+	\item September 2013 - December 2013: Software Developer at EWA Canada~\\
+	4-month internship
+	\item September 2012 - December 2012: Software Developer at the Canadian Space Agency~\\
+	4-month internship
+	\item January 2012 - April 2012: Quality Assurance tester at QuickPlay Media~\\
+	4-month internship
+\end{description}
+
+\paragraph{Education} ~\\
+Bachelor of Computer Science, University of Waterloo Co-operative Program, Graduated October 2016
+
+\paragraph{Additional Information and Links}
+\begin{description}
+	\item My GitHub page: \url{https://github.com/weshmek}
+\end{description}
+
+\paragraph{Resume powered by \LaTeX{}}
 \end{document}
